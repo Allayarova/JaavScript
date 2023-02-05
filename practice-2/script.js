@@ -144,15 +144,31 @@
 
 //masala -12
 
-let a = Number(prompt(" katetning a tomonini  kiriting"));
-let b = Number(prompt("  katetning b tomonini kiriting"));
+// let a = Number(prompt(" katetning a tomonini  kiriting"));
+// let b = Number(prompt("  katetning b tomonini kiriting"));
 
-let c = (a ** 2 + b ** 2) ** 0.5;
-let perimetr = a + b + c;
+// let c = (a ** 2 + b ** 2) ** 0.5;
+// let perimetr = a + b + c;
 
-alert(`to'g'ri uchburchakning gitotenuzasi ${c}ga teng `);
+// alert(`to'g'ri uchburchakning gitotenuzasi ${c}ga teng `);
 
-alert(`to'g'ri uchburchakning perimetri ${perimetr}ga teng `);
+// alert(`to'g'ri uchburchakning perimetri ${perimetr}ga teng `);
+
+//masala -13
+
+let R1 = Number(prompt(" R1>R2 R1 ni kiriting"));
+let R2 = Number(prompt(" R1>R2 R2 ni kiriting"));
+
+let p = 3.14;
+
+let S1 = p * R1;
+let S2 = p * R2;
+let S3 = p * (R1 - R2);
+
+alert(`ayalna yuzi S1 ${S1}ga teng `);
+alert(`ayalna yuzi S2 ${S2}ga teng `);
+
+alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
 
 //keyingi 30 talik masala
 
