@@ -142,6 +142,17 @@
 //   alert(b);
 // }
 
+//masala -12
+
+let a = Number(prompt(" katetning a tomonini  kiriting"));
+let b = Number(prompt("  katetning b tomonini kiriting"));
+
+let c = (a ** 2 + b ** 2) ** 0.5;
+let perimetr = a + b + c;
+
+alert(`to'g'ri uchburchakning gitotenuzasi ${c}ga teng `);
+
+alert(`to'g'ri uchburchakning perimetri ${perimetr}ga teng `);
 
 //keyingi 30 talik masala
 
