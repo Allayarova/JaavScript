@@ -6,8 +6,8 @@ if (son % 2 === 0) {
   console.log("kiritilgan son toq");
 }
 
-let ogirlik = 60;
-let boy = 1.62;
+let ogirlik = Number(prompt("Og'irligingizni kiriting"));
+let boy = Number(prompt("boyingizni kiriting"));
 
 let a = ogirlik / boy ** 2;
 
