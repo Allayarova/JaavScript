@@ -156,12 +156,29 @@
 
 //masala -13
 
-let R1 = Number(prompt(" R1>R2 R1 ni kiriting"));
-let R2 = Number(prompt(" R1>R2 R2 ni kiriting"));
+// let R1 = Number(prompt(" R1>R2 R1 ni kiriting"));
+// let R2 = Number(prompt(" R1>R2 R2 ni kiriting"));
+
+// let p = 3.14;
+
+// let S1 = p * R1;
+// let S2 = p * R2;
+// let S3 = p * (R1 - R2);
+
+// alert(`ayalna yuzi S1 ${S1}ga teng `);
+// alert(`ayalna yuzi S2 ${S2}ga teng `);
+
+// alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
+
+
+//masala -14
+
+
+let L = Number(prompt(" aylananing uzunligini kiriting"));
 
 let p = 3.14;
 
-let S1 = p * R1;
+let S = p * R1;
 let S2 = p * R2;
 let S3 = p * (R1 - R2);
 
@@ -169,6 +186,8 @@ alert(`ayalna yuzi S1 ${S1}ga teng `);
 alert(`ayalna yuzi S2 ${S2}ga teng `);
 
 alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
+
+
 
 //keyingi 30 talik masala
 
