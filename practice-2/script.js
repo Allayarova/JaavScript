@@ -187,15 +187,29 @@
 
 //masala 15
 
-let S = Number(prompt(" aylananing yuzasini kiriting"));
+// let S = Number(prompt(" aylananing yuzasini kiriting"));
 
-let p = 3.14;
+// let p = 3.14;
 
-let R = (S / p) ** 0.5;
-let L = 2 * p * R;
+// let R = (S / p) ** 0.5;
+// let L = 2 * p * R;
 
-alert(`ayalna radiusi  ${R}ga teng `);
-alert(`ayalna uzunligi  ${L}ga teng `);
+// alert(`ayalna radiusi  ${R}ga teng `);
+// alert(`ayalna uzunligi  ${L}ga teng `);
+
+//masala 16
+
+let X2 = Number(prompt(" Son o'qidagi X2 qiymatini kiriting  "));
+
+let X1 = Number(prompt(" Son o'qidagi X1 qiymatini kiriting  "));
+
+let masofa = X2 - X1;
+
+if (masofa < 0) {
+  alert(-masofa);
+} else if (masofa < 0) {
+  alert(masofa);
+}
 
 //keyingi 30 talik masala
 
