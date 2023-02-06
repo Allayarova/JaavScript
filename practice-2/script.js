@@ -199,17 +199,56 @@
 
 //masala 16
 
-let X2 = Number(prompt(" Son o'qidagi X2 qiymatini kiriting  "));
+// let X2 = Number(prompt(" Son o'qidagi X2 qiymatini kiriting  "));
 
-let X1 = Number(prompt(" Son o'qidagi X1 qiymatini kiriting  "));
+// let X1 = Number(prompt(" Son o'qidagi X1 qiymatini kiriting  "));
 
-let masofa = X2 - X1;
+// let masofa = X2 - X1;
 
-if (masofa < 0) {
-  alert(-masofa);
-} else if (masofa < 0) {
-  alert(masofa);
-}
+// if (masofa < 0) {
+//   alert(-masofa);
+// } else if (masofa < 0) {
+//   alert(masofa);
+// }
+
+//masala 17
+
+// let A = Number(prompt(" Son o'qidagi A qiymatini kiriting  "));
+
+// let B = Number(prompt(" Son o'qidagi B qiymatini kiriting  "));
+
+// let C = Number(prompt(" Son o'qidagi C qiymatini kiriting  "));
+
+// let AC = A * C;
+
+// let BC = B * C;
+
+// let sum = A + B + C;
+
+// alert(`AC kesmalarning uzunligi  ${AC}ga teng `);
+// alert(`BC kesmalarning uzunligi  ${BC}ga teng `);
+
+// alert(`kesmalar uzunligining yigindisi  ${sum}ga teng `);
+
+//masala 18
+
+
+let A = Number(prompt(" Son o'qidagi A qiymatini kiriting  "));
+
+let B = Number(prompt(" Son o'qidagi B qiymatini kiriting  "));
+
+let C = Number(prompt(" Son o'qidagi C qiymatini kiriting  "));
+
+let AC = A * C;
+
+let BC = B * C;
+
+let sum = AC*BC;
+
+alert(`AC kesmalarning uzunligi  ${AC}ga teng `);
+alert(`BC kesmalarning uzunligi  ${BC}ga teng `);
+
+alert(`kesmalar uzunligining kopaytmasi  ${sum}ga teng `);
 
 //keyingi 30 talik masala
 
