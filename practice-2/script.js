@@ -170,24 +170,32 @@
 
 // alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
 
-
 //masala -14
 
+// let L = Number(prompt(" aylananing uzunligini kiriting"));
 
-let L = Number(prompt(" aylananing uzunligini kiriting"));
+// let p = 3.14;
+
+// let S = p * R1;
+// let S2 = p * R2;
+// let S3 = p * (R1 - R2);
+
+// alert(`ayalna yuzi S1 ${S1}ga teng `);
+// alert(`ayalna yuzi S2 ${S2}ga teng `);
+
+// alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
+
+//masala 15
+
+let S = Number(prompt(" aylananing yuzasini kiriting"));
 
 let p = 3.14;
 
-let S = p * R1;
-let S2 = p * R2;
-let S3 = p * (R1 - R2);
+let R = (S / p) ** 0.5;
+let L = 2 * p * R;
 
-alert(`ayalna yuzi S1 ${S1}ga teng `);
-alert(`ayalna yuzi S2 ${S2}ga teng `);
-
-alert(`aylana yuzlarinig ayirmasi S3 ${S3}ga teng `);
-
-
+alert(`ayalna radiusi  ${R}ga teng `);
+alert(`ayalna uzunligi  ${L}ga teng `);
 
 //keyingi 30 talik masala
 
