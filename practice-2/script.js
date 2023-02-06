@@ -232,23 +232,36 @@
 
 //masala 18
 
+// let A = Number(prompt(" Son o'qidagi A qiymatini kiriting  "));
 
-let A = Number(prompt(" Son o'qidagi A qiymatini kiriting  "));
+// let B = Number(prompt(" Son o'qidagi B qiymatini kiriting  "));
 
-let B = Number(prompt(" Son o'qidagi B qiymatini kiriting  "));
+// let C = Number(prompt(" Son o'qidagi C qiymatini kiriting  "));
 
-let C = Number(prompt(" Son o'qidagi C qiymatini kiriting  "));
+// let AC = A * C;
 
-let AC = A * C;
+// let BC = B * C;
 
-let BC = B * C;
+// let sum = AC*BC;
 
-let sum = AC*BC;
+// alert(`AC kesmalarning uzunligi  ${AC}ga teng `);
+// alert(`BC kesmalarning uzunligi  ${BC}ga teng `);
 
-alert(`AC kesmalarning uzunligi  ${AC}ga teng `);
-alert(`BC kesmalarning uzunligi  ${BC}ga teng `);
+// alert(`kesmalar uzunligining kopaytmasi  ${sum}ga teng `);
 
-alert(`kesmalar uzunligining kopaytmasi  ${sum}ga teng `);
+//masala 20
+
+let X1 = Number(prompt(" X1 qiymatini kiriting  "));
+
+let X2 = Number(prompt(" X2 qiymatini kiriting  "));
+
+let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
+
+let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
+
+let masofa = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+
+alert(`ikki nuqta orasidagi masofa   ${masofa}ga teng `);
 
 //keyingi 30 talik masala
 
