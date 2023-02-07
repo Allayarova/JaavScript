@@ -256,7 +256,7 @@ let X1 = Number(prompt(" X1 qiymatini kiriting  "));
 let X2 = Number(prompt(" X2 qiymatini kiriting  "));
 
 let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
-
+ 
 let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
 
 let masofa = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
