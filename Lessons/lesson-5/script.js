@@ -20,11 +20,21 @@ let butunSon = Number(prompt("Butun sonni kiriting"));
 
 // exprectionFaction(butunSon);
 
+// const arrowFaction = (a) => {
+//   if (a > 0) {
+//     console.log(++a);
+//   } else {
+//     console.log(a);
+//   }
+// };
+
+// arrowFaction(butunSon);
+
 const arrowFaction = (a) => {
   if (a > 0) {
     console.log(++a);
   } else {
-    console.log(a);
+    console.log(a-2);
   }
 };
 
