@@ -32,19 +32,19 @@
 
 //masala -4
 
-let a = Number(prompt("Birinchi butun sonni kiriting"));
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
 
-let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
 
-let c = Number(prompt("Uchinchi butun sonni kiriting"));
+// let c = Number(prompt("Uchinchi butun sonni kiriting"));
 
-if (a > 0 && b > 0 && c > 0) {
-  alert("uchta musbat son bor");
-} else if (a < 0 && b > 0 && c > 0) {
-  alert(`ikkita musbat son bor`);
-} else if (a < 0 && b < 0 && c > 0) {
-  alert(`bitta musbat son bor`);
-}
+// if (a > 0 && b > 0 && c > 0) {
+//   alert("uchta musbat son bor");
+// } else if (a < 0 && b > 0 && c > 0) {
+//   alert(`ikkita musbat son bor`);
+// } else if (a < 0 && b < 0 && c > 0) {
+//   alert(`bitta musbat son bor`);
+// }
 
 //masala -6
 
@@ -55,5 +55,23 @@ if (a > 0 && b > 0 && c > 0) {
 // if (a > b) {
 //   alert(a);
 // } else if (b > a) {
+//   alert(b);
+// }
+
+//masala -8
+
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
+
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+
+// if (a > b) {
+//   alert(a);
+//   alert(b);
+// } else if (b > a) {
+//   alert(b);
+//   alert("a");
+// } else if (a < b) {
+//   alert(a);
+// } else if (b < a) {
 //   alert(b);
 // }
