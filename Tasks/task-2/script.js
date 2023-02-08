@@ -32,20 +32,28 @@
 
 //masala -4
 
-// let son1 = Number(prompt("Birinchi butun sonni kiriting"));
-
-// let son2 = Number(prompt("Ikkinchi butun sonni kiriting"));
-
-// let son3 = Number(prompt("Uchinchi butun sonni kiriting"));
-
-//masala -6
-
 let a = Number(prompt("Birinchi butun sonni kiriting"));
 
 let b = Number(prompt("Ikkinchi butun sonni kiriting"));
 
-if (a > b) {
-  alert(a);
-} else if (b > a) {
-  alert(b);
+let c = Number(prompt("Uchinchi butun sonni kiriting"));
+
+if (a > 0 && b > 0 && c > 0) {
+  alert("uchta musbat son bor");
+} else if (a < 0 && b > 0 && c > 0) {
+  alert(`ikkita musbat son bor`);
+} else if (a < 0 && b < 0 && c > 0) {
+  alert(`bitta musbat son bor`);
 }
+
+//masala -6
+
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
+
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+
+// if (a > b) {
+//   alert(a);
+// } else if (b > a) {
+//   alert(b);
+// }
