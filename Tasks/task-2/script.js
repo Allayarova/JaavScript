@@ -30,21 +30,33 @@
 //   alert(son = 10);
 // }
 
-//masala -4
+masala - 4;
 
-// let a = Number(prompt("Birinchi butun sonni kiriting"));
+let a = Number(prompt("Birinchi butun sonni kiriting"));
 
-// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+let b = Number(prompt("Ikkinchi butun sonni kiriting"));
 
-// let c = Number(prompt("Uchinchi butun sonni kiriting"));
+let c = Number(prompt("Uchinchi butun sonni kiriting"));
 
-// if (a > 0 && b > 0 && c > 0) {
-//   alert("uchta musbat son bor");
-// } else if (a < 0 && b > 0 && c > 0) {
-//   alert(`ikkita musbat son bor`);
-// } else if (a < 0 && b < 0 && c > 0) {
-//   alert(`bitta musbat son bor`);
-// }
+let positivSum;
+
+if (a > 0 && b > 0 && c > 0) {
+  positivSum = 3;
+} else if (a < 0 && b > 0 && c > 0) {
+  positivSum = 2;
+} else if (a > 0 && b < 0 && c > 0) {
+  positivSum = 2;
+} else if (a > 0 && b > 0 && c < 0) {
+  positivSum = 2;
+} else if (a < 0 && b < 0 && c > 0) {
+  positivSum = 1;
+} else if (a < 0 && b > 0 && c < 0) {
+  positivSum = 1;
+} else if (a > 0 && b < 0 && c < 0) {
+  positivSum = 1;
+}
+
+console.log(`Positive numbers ${positivSum}`);
 
 //masala -6
 
