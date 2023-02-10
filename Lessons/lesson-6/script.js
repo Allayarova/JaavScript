@@ -37,6 +37,9 @@ console.log(numArrays.includes(20));
 
 console.log(numArrays.includes(400));
 
+numArray.splice(0 ,3);
+console.log(numArray);
+
 
 
 
