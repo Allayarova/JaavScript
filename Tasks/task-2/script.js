@@ -90,22 +90,40 @@
 
 //masala -9
 
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
+
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+
+// let minNumber;
+// let maxNumber;
+
+// if (a > b) {
+//   maxNumber = a;
+//   minNumber = b;
+// } else if (a < b) {
+//   maxNumber = b;
+//   minNumber = a;
+// }
+
+// console.log(
+//   `Max number b ${(b = maxNumber)} , Min number a ${(a = minNumber)}`
+// );
+// console.log(a, b);
+
+//masala -10
+
 let a = Number(prompt("Birinchi butun sonni kiriting"));
 
 let b = Number(prompt("Ikkinchi butun sonni kiriting"));
 
-let minNumber;
-let maxNumber;
+let sum = a + b;
 
-if (a > b) {
-  maxNumber = a;
-  minNumber = b;
-} else if (a < b) {
-  maxNumber = b;
-  minNumber = a;
+if (a != b) {
+  a = sum;
+  b = sum;
+  console.log(a, b);
+} else if ((a = b)) {
+  a = 0;
+  b = 0;
+  console.log(a, b);
 }
-
-console.log(
-  `Max number b ${(b = maxNumber)} , Min number a ${(a = minNumber)}`
-);
-console.log(a, b);
