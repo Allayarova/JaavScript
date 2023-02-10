@@ -112,18 +112,54 @@
 
 //masala -10
 
-let a = Number(prompt("Birinchi butun sonni kiriting"));
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
 
-let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
 
-let sum = a + b;
+// let sum = a + b;
 
-if (a != b) {
-  a = sum;
-  b = sum;
-  console.log(a, b);
-} else if ((a = b)) {
-  a = 0;
-  b = 0;
-  console.log(a, b);
-}
+// if (a != b) {
+//   a = sum;
+//   b = sum;
+//   console.log(a, b);
+// } else if ((a = b)) {
+//   a = 0;
+//   b = 0;
+//   console.log(a, b);
+// }
+
+//masala -11
+
+// let a = Number(prompt("Birinchi butun sonni kiriting"));
+
+// let b = Number(prompt("Ikkinchi butun sonni kiriting"));
+
+// let sum = a + b;
+
+// c = a > b;
+// d = b > a;
+
+// if (a != b) {
+//   a = c;
+//   b = d;
+//   console.log(a, b);
+// } else if ((a = b)) {
+//   a = 0;
+//   b = 0;
+//   console.log(a, b);
+// }
+
+//masala -12
+
+
+let a = Number(prompt("a sonni kiriting"));
+
+let b = Number(prompt("b sonni kiriting"));
+
+let c = Number(prompt("c sonni kiriting"));
+
+
+
+
+
+
