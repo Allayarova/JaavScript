@@ -307,19 +307,45 @@
 
 //masala -27
 
+// let A = Number(prompt(" A qiymatini kiriting  "));
+
+// let kvadrat = A ** 2;
+
+// let fourth = A ** 4;
+
+// let eighth = A ** 8;
+
+// console.log(` A sonining kvadrati ${kvadrat}ga yeng  `);
+
+// console.log(` A sonining tortinchi darajasi ${fourth}ga yeng  `);
+
+// console.log(` A sonining sakkizinchi darajasi ${eighth}ga yeng  `);
+
+//masala -28
+
 let A = Number(prompt(" A qiymatini kiriting  "));
 
 let kvadrat = A ** 2;
 
-let fourth = A ** 4;
+let kub = A ** 3;
 
-let eighth = A ** 8;
+let fifth = A ** 5;
+
+let tenth = A ** 10;
+
+let fiftinth = A ** 15;
 
 console.log(` A sonining kvadrati ${kvadrat}ga yeng  `);
 
-console.log(` A sonining tortinchi darajasi ${fourth}ga yeng  `);
+console.log(` A sonining uchinci darajasi ${kub}ga yeng  `);
 
-console.log(` A sonining sakkizinchi darajasi ${eighth}ga yeng  `);
+console.log(` A sonining beshinchi darajasi ${fifth}ga yeng  `);
+
+console.log(` A sonining o'ninchi darajasi ${tenth}ga yeng  `);
+
+console.log(` A sonining o'n beshinchi darajasi ${fiftinth}ga yeng  `);
+
+
 
 //keyingi 30 talik masala
 
