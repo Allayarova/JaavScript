@@ -151,6 +151,27 @@
 
 //masala -13
 
+// let a = Number(prompt("a sonni kiriting"));
+
+// let b = Number(prompt("b sonni kiriting"));
+
+// let c = Number(prompt("c sonni kiriting"));
+
+// let maxNumber;
+
+// if (a < b && a > c) {
+//   maxNumber = a;
+// } else if (b > a && b < c) {
+//   maxNumber = b;
+// } else if (c > a && c < b) {
+//   maxNumber = c;
+// }
+
+// console.log(maxNumber);
+
+//masala -14
+
+
 let a = Number(prompt("a sonni kiriting"));
 
 let b = Number(prompt("b sonni kiriting"));
@@ -159,12 +180,3 @@ let c = Number(prompt("c sonni kiriting"));
 
 let maxNumber;
 
-if (a < b && a > c) {
-  maxNumber = a;
-} else if (b > a && b < c) {
-  maxNumber = b;
-} else if (c > a && c < b) {
-  maxNumber = c;
-}
-
-console.log(maxNumber);

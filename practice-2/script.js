@@ -249,19 +249,47 @@
 
 // alert(`kesmalar uzunligining kopaytmasi  ${sum}ga teng `);
 
-//masala 20
+//masala -20
+
+// let X1 = Number(prompt(" X1 qiymatini kiriting  "));
+
+// let X2 = Number(prompt(" X2 qiymatini kiriting  "));
+
+// let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
+
+// let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
+
+// let masofa = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+
+// alert(`ikki nuqta orasidagi masofa   ${masofa}ga teng `);
+
+//masala 21
 
 let X1 = Number(prompt(" X1 qiymatini kiriting  "));
 
 let X2 = Number(prompt(" X2 qiymatini kiriting  "));
 
+let X3 = Number(prompt(" X3 qiymatini kiriting  "));
+
 let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
- 
+
 let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
 
-let masofa = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+let Y3 = Number(prompt(" Y3 qiymatini kiriting  "));
 
-alert(`ikki nuqta orasidagi masofa   ${masofa}ga teng `);
+let A = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+
+let B = ((X3 - X2) ** 2 + (Y3 - Y2) ** 2) ** 0.5;
+
+let C = ((X3 - X1) ** 2 + (Y3 - Y1) ** 2) ** 0.5;
+
+let p = (A + B + C) / 2;
+
+let S = (p * (p - A) * (p - B) * (p - C)) ** 0.5;
+
+alert(`uxhburchakning yuzasi   ${S}ga teng `);
+
+alert(`uxhburchakning perimetri   ${p}ga teng`);
 
 //keyingi 30 talik masala
 
