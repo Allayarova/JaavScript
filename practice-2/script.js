@@ -293,10 +293,17 @@
 
 //masala -25
 
+// let x = Number(prompt(" X qiymatini kiriting  "));
+
+// let y = 3 * x ** 6 - 6 * x ** 2 - 7;
+//  console.log(y);
+
+//masala -26
+
 let x = Number(prompt(" X qiymatini kiriting  "));
 
-let y = 3 * x ** 6 - 6 * x ** 2 - 7;
- console.log(y);
+let y = 4 * (x - 3) ** 6 - 7 * (x - 3) ** 3 + 2;
+console.log(y);
 
 //keyingi 30 talik masala
 
