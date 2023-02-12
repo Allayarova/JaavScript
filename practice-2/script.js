@@ -300,10 +300,26 @@
 
 //masala -26
 
-let x = Number(prompt(" X qiymatini kiriting  "));
+// let x = Number(prompt(" X qiymatini kiriting  "));
 
-let y = 4 * (x - 3) ** 6 - 7 * (x - 3) ** 3 + 2;
-console.log(y);
+// let y = 4 * (x - 3) ** 6 - 7 * (x - 3) ** 3 + 2;
+// console.log(y);
+
+//masala -27
+
+let A = Number(prompt(" A qiymatini kiriting  "));
+
+let kvadrat = A ** 2;
+
+let fourth = A ** 4;
+
+let eighth = A ** 8;
+
+console.log(` A sonining kvadrati ${kvadrat}ga yeng  `);
+
+console.log(` A sonining tortinchi darajasi ${fourth}ga yeng  `);
+
+console.log(` A sonining sakkizinchi darajasi ${eighth}ga yeng  `);
 
 //keyingi 30 talik masala
 
