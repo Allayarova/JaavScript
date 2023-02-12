@@ -265,31 +265,38 @@
 
 //masala 21
 
-let X1 = Number(prompt(" X1 qiymatini kiriting  "));
+// let X1 = Number(prompt(" X1 qiymatini kiriting  "));
 
-let X2 = Number(prompt(" X2 qiymatini kiriting  "));
+// let X2 = Number(prompt(" X2 qiymatini kiriting  "));
 
-let X3 = Number(prompt(" X3 qiymatini kiriting  "));
+// let X3 = Number(prompt(" X3 qiymatini kiriting  "));
 
-let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
+// let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
 
-let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
+// let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
 
-let Y3 = Number(prompt(" Y3 qiymatini kiriting  "));
+// let Y3 = Number(prompt(" Y3 qiymatini kiriting  "));
 
-let A = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+// let A = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
 
-let B = ((X3 - X2) ** 2 + (Y3 - Y2) ** 2) ** 0.5;
+// let B = ((X3 - X2) ** 2 + (Y3 - Y2) ** 2) ** 0.5;
 
-let C = ((X3 - X1) ** 2 + (Y3 - Y1) ** 2) ** 0.5;
+// let C = ((X3 - X1) ** 2 + (Y3 - Y1) ** 2) ** 0.5;
 
-let p = (A + B + C) / 2;
+// let p = (A + B + C) / 2;
 
-let S = (p * (p - A) * (p - B) * (p - C)) ** 0.5;
+// let S = (p * (p - A) * (p - B) * (p - C)) ** 0.5;
 
-alert(`uxhburchakning yuzasi   ${S}ga teng `);
+// alert(`uxhburchakning yuzasi   ${S}ga teng `);
 
-alert(`uxhburchakning perimetri   ${p}ga teng`);
+// alert(`uxhburchakning perimetri   ${p}ga teng`);
+
+//masala -25
+
+let x = Number(prompt(" X qiymatini kiriting  "));
+
+let y = 3 * x ** 6 - 6 * x ** 2 - 7;
+ console.log(y);
 
 //keyingi 30 talik masala
 
