@@ -171,7 +171,6 @@
 
 //masala -14
 
-
 let a = Number(prompt("a sonni kiriting"));
 
 let b = Number(prompt("b sonni kiriting"));
@@ -180,3 +179,52 @@ let c = Number(prompt("c sonni kiriting"));
 
 let maxNumber;
 
+let minNumber;
+
+if (a > b && b > c) {
+  maxNumber = a;
+  minNumber = c;
+
+  console.log(a, c);
+} else if (a > c && c > b) {
+  maxNumber = a;
+  minNumber = b;
+
+  console.log(a, b);
+} else if (a < b && a > c) {
+  maxNumber = b;
+  minNumber = c;
+  console.log(b, c);
+} else if (b > c && c > a) {
+  maxNumber = b;
+  minNumber = a;
+
+  console.log(a, b);
+} else if (c > a && a > b) {
+  maxNumber = c;
+  minNumber = b;
+
+  console.log(c, b);
+} else if (c > b && b > a) {
+  maxNumber = c;
+  minNumber = a;
+
+  console.log(c, a);
+} else if (a > b && b === c) {
+  maxNumber = a;
+  minNumber = c;
+
+  console.log(a, c);
+} else if (b > a && a === c) {
+  maxNumber = b;
+  minNumber = a;
+
+  console.log(b, a);
+} else if (c > b && b === a) {
+  maxNumber = c;
+  minNumber = b;
+
+  console.log(c, b);
+} else if (a == b && b == c) {
+  console.log(a, b, c);
+}
