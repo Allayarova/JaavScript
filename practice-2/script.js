@@ -323,28 +323,37 @@
 
 //masala -28
 
-let A = Number(prompt(" A qiymatini kiriting  "));
+// let A = Number(prompt(" A qiymatini kiriting  "));
 
-let kvadrat = A ** 2;
+// let kvadrat = A ** 2;
 
-let kub = A ** 3;
+// let kub = A ** 3;
 
-let fifth = A ** 5;
+// let fifth = A ** 5;
 
-let tenth = A ** 10;
+// let tenth = A ** 10;
 
-let fiftinth = A ** 15;
+// let fiftinth = A ** 15;
 
-console.log(` A sonining kvadrati ${kvadrat}ga yeng  `);
+// console.log(` A sonining kvadrati ${kvadrat}ga yeng  `);
 
-console.log(` A sonining uchinci darajasi ${kub}ga yeng  `);
+// console.log(` A sonining uchinci darajasi ${kub}ga yeng  `);
 
-console.log(` A sonining beshinchi darajasi ${fifth}ga yeng  `);
+// console.log(` A sonining beshinchi darajasi ${fifth}ga yeng  `);
 
-console.log(` A sonining o'ninchi darajasi ${tenth}ga yeng  `);
+// console.log(` A sonining o'ninchi darajasi ${tenth}ga yeng  `);
 
-console.log(` A sonining o'n beshinchi darajasi ${fiftinth}ga yeng  `);
+// console.log(` A sonining o'n beshinchi darajasi ${fiftinth}ga yeng  `);
 
+//masala-29
+
+let burchak = Number(prompt(" alfa burchakni radiandagi qiymatini kiting"));
+
+let p = 3.14;
+
+let gradus = 180 / p;
+
+console.log(gradus);
 
 
 //keyingi 30 talik masala
