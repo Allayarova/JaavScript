@@ -12,11 +12,22 @@
 
 //masala 3
 
-let a = Number(prompt(" a butun sonini kirirting  a<b "));
+// let a = Number(prompt(" a butun sonini kirirting  a<b "));
 
-let b = Number(prompt(" b butun sonini kirirting  a<b "));
+// let b = Number(prompt(" b butun sonini kirirting  a<b "));
 
-for (let i = b; i > a; i--) {
-  console.log(i);
+// for (let i = b; i > a; i--) {
+//   console.log(i);
 
+// }
+
+//masala 4
+
+let a = Number(prompt(" 1 kg kanfet narxini kiriting "));
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i*a);
+  
 }
+
+
