@@ -23,11 +23,17 @@
 
 //masala 4
 
+// let a = Number(prompt(" 1 kg kanfet narxini kiriting "));
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i*a);
+
+// }
+
+//masala 5
+
 let a = Number(prompt(" 1 kg kanfet narxini kiriting "));
 
 for (let i = 1; i <= 10; i++) {
-  console.log(i*a);
-  
+  console.log((i / 10) * a);
 }
-
-
