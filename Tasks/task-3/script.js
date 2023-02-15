@@ -55,13 +55,26 @@
 
 //masala -8
 
+// let a = Number(prompt(" a butun sonini kirirting  a<b "));
+
+// let b = Number(prompt(" b butun sonini kirirting  a<b "));
+
+// let sum = 1;
+
+// for (let i = a; i <= b; i++) {
+//   sum = sum * i;
+// }
+// console.log(sum);
+
+//masala 9
+
 let a = Number(prompt(" a butun sonini kirirting  a<b "));
 
 let b = Number(prompt(" b butun sonini kirirting  a<b "));
 
-let sum = 1;
+let sum = 0;
 
 for (let i = a; i <= b; i++) {
-  sum = sum * i;
+  sum = sum + i ** 2;
 }
 console.log(sum);
