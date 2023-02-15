@@ -32,8 +32,23 @@
 
 //masala 5
 
-let a = Number(prompt(" 1 kg kanfet narxini kiriting "));
+// let a = Number(prompt(" 1 kg kanfet narxini kiriting "));
 
-for (let i = 1; i <= 10; i++) {
-  console.log((i / 10) * a);
+// for (let i = 1; i <= 10; i++) {
+//   console.log((i / 10) * a);
+// }
+
+//masala 6
+
+//masala 7
+
+let a = Number(prompt(" a butun sonini kirirting  a<b "));
+
+let b = Number(prompt(" b butun sonini kirirting  a<b "));
+
+let sum = 0;
+
+for (let i = a; i <= b; i++) {
+  sum = sum + i;
 }
+console.log(sum);
