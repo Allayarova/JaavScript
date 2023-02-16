@@ -103,11 +103,26 @@
 
 //masala 12
 
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let sum = 1;
+
+// for (let i = 1; i <= 2n; i++) {
+//   sum = (sum * i) / 10;
+// }
+// console.log(sum);
+
+//masala 13
+
 let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
-let sum = 1;
+let sum = 0;
 
 for (let i = 1; i <= n; i++) {
-  sum = (sum * i) / 10;
+  if (n % 2) {
+    sum += (-1 * i) / 10;
+  } else {
+    sum += i / 10;
+  }
 }
 console.log(sum);
