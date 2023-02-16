@@ -81,11 +81,22 @@
 
 // masala -10
 
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   sum = sum + 1 + 1 / i;
+// }
+// console.log(sum);
+
+//masala 11
+
 let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
 let sum = 0;
 
 for (let i = 1; i <= n; i++) {
-  sum = sum + 1 + 1 / i;
+  sum = sum + n ** 2 + (n + i) ** 2;
 }
 console.log(sum);
