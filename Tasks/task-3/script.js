@@ -165,13 +165,44 @@
 
 //masala 17
 
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let a = Number(prompt(" a butun sonini kirirting  "));
+
+// let sum = 0;
+
+// for (let i = 1; i < n; i++) {
+//   console.log(a ** i);
+//   console.log((sum += a ** i));
+// }
+
+//masala 18
+
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let a = Number(prompt(" a butun sonini kirirting  "));
+
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   if (n % 2) {
+//     sum += i / 10;
+//   } else {
+//     sum += (-1 * i) / 10;
+//   }
+
+//   console.log(a ** i);
+//   console.log((sum += a ** i));
+// }
+
+//masala 19
+
 let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
-let a = Number(prompt(" a butun sonini kirirting  "));
-
-let sum = 0;
+let sum = 1;
 
 for (let i = 1; i < n; i++) {
-  console.log(a ** i);
-  console.log((sum += a ** i)); 
+  sum = sum * i;
+
+  console.log(sum);
 }
