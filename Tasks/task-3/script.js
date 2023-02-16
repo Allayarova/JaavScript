@@ -79,3 +79,13 @@
 // }
 // console.log(sum);
 
+// masala -10
+
+let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+let sum = 0;
+
+for (let i = 1; i <= n; i++) {
+  sum = sum + 1 + 1 / i;
+}
+console.log(sum);
