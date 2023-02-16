@@ -101,7 +101,7 @@
 // }
 // console.log(sum);
 
-//masala 12
+// masala 12
 
 // let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
@@ -114,15 +114,25 @@
 
 //masala 13
 
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   if (n % 2) {
+//     sum += (-1 * i) / 10;
+//   } else {
+//     sum += i / 10;
+//   }
+// }
+// console.log(sum);
+
+//masala 14
+
 let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
 let sum = 0;
 
-for (let i = 1; i <= n; i++) {
-  if (n % 2) {
-    sum += (-1 * i) / 10;
-  } else {
-    sum += i / 10;
-  }
+for (let i = 1; i < n; i++) {
+  console.log(i**2);
 }
-console.log(sum);
