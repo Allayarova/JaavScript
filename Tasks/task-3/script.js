@@ -129,10 +129,36 @@
 
 //masala 14
 
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let sum = 0;
+
+// for (let i = 1; i < n; i++) {
+//   console.log(i**2);
+// }
+
+//masala 15
+
+// let n = Number(prompt(" n butun sonini kirirting  n>0 "));
+
+// let a = Number(prompt(" a butun sonini kirirting  "));
+
+// let sum = 0;
+
+// for (let i = 1; i < a; i++) {
+//   for (let j = 1; j < n; j++) {
+//     console.log(i**j);
+//   }
+// }
+
+//masala 16
+
 let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
-let sum = 0;
+let a = Number(prompt(" a butun sonini kirirting  "));
+
+let sum = 1;
 
 for (let i = 1; i < n; i++) {
-  console.log(i**2);
+  console.log(a ** i);
 }
