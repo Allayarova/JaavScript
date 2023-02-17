@@ -202,7 +202,7 @@ let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 let sum = 1;
 
 for (let i = 1; i < n; i++) {
-  sum = sum * i;
+  sum += sum * i;
 
   console.log(sum);
 }
