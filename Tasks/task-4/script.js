@@ -39,25 +39,38 @@
 
 //masala 3
 
+// let a = Number(prompt(" a sonini kiriting "));
+
+// let b = Number(prompt(" b sonini kiriting "));
+
+// let c = Number(prompt(" c sonini kiriting "));
+
+// let d = Number(prompt(" d sonini kiriting "));
+
+// function MEAN(a, b, c, d) {
+//   ortaarif1 = (a + b) / 2;
+//   ortaarif2 = (a + c) / 2;
+//   ortaarif3 = (a + d) / 2;
+
+//   ortageom1 = (a * b) ** 0.5;
+//   ortageom2 = (a * c) ** 0.5;
+//   ortageom3 = (a * d) ** 0.5;
+
+//   console.log(ortaarif1, ortaarif2, ortaarif3);
+//   console.log(ortageom1, ortageom2, ortageom3);
+//   return ortaarif1, ortaarif2, ortaarif3, ortageom1, ortageom2, ortageom3;
+// }
+// MEAN(a, b, c, d);
+
+//masala 4
+
 let a = Number(prompt(" a sonini kiriting "));
 
-let b = Number(prompt(" b sonini kiriting "));
+function triangl(a) {
+  perimetr = 3 * a;
+  yuzi = (3 ** 0.5 / 4) * a ** 2;
 
-let c = Number(prompt(" c sonini kiriting "));
-
-let d = Number(prompt(" d sonini kiriting "));
-
-function MEAN(a, b, c, d) {
-  ortaarif1 = (a + b) / 2;
-  ortaarif2 = (a + c) / 2;
-  ortaarif3 = (a + d) / 2;
-
-  ortageom1 = (a * b) ** 0.5;
-  ortageom2 = (a * c) ** 0.5;
-  ortageom3 = (a * d) ** 0.5;
-
-  console.log(ortaarif1, ortaarif2, ortaarif3);
-  console.log(ortageom1, ortageom2, ortageom3);
-  return ortaarif1, ortaarif2, ortaarif3, ortageom1, ortageom2, ortageom3;
+  console.log(perimetr, yuzi);
+  return perimetr, yuzi;
 }
-MEAN(a, b, c, d);
+triangl(a);
