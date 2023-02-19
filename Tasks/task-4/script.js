@@ -64,13 +64,36 @@
 
 //masala 4
 
-let a = Number(prompt(" a sonini kiriting "));
+// let a = Number(prompt(" a sonini kiriting "));
 
-function triangl(a) {
-  perimetr = 3 * a;
-  yuzi = (3 ** 0.5 / 4) * a ** 2;
+// function triangl(a) {
+//   perimetr = 3 * a;
+//   yuzi = (3 ** 0.5 / 4) * a ** 2;
 
-  console.log(perimetr, yuzi);
-  return perimetr, yuzi;
+//   console.log(perimetr, yuzi);
+//   return perimetr, yuzi;
+// }
+// triangl(a);
+
+//masala 5
+
+let X1 = Number(prompt(" X1 qiymatini kiriting  "));
+
+let X2 = Number(prompt(" X2 qiymatini kiriting  "));
+
+let Y1 = Number(prompt(" Y1 qiymatini kiriting  "));
+
+let Y2 = Number(prompt(" Y2 qiymatini kiriting  "));
+
+let A = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
+
+function RectPS(X1, X2, Y1, Y2) {
+  p = 4 * A;
+  s = A ** 2;
+  alert(`tortburchakning yuzasi   ${s}ga teng `);
+
+  alert(`tortburchakning perimetri   ${p}ga teng`);
+
+  return p, s;
 }
-triangl(a);
+RectPS();

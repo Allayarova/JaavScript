@@ -263,7 +263,7 @@
 
 // alert(`ikki nuqta orasidagi masofa   ${masofa}ga teng `);
 
-//masala 21
+// masala 21
 
 // let X1 = Number(prompt(" X1 qiymatini kiriting  "));
 
