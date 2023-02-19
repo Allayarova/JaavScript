@@ -246,4 +246,14 @@
 
 //masala 23
 
+let n = Number(prompt(" n butun sonini kirirting  n>0 "));
 
+let sum = 1;
+let sum2 = 0;
+
+for (let i = 1; i <= n; i++) {
+  sum *= 2 * i + 1;
+  sum2 += ((-1) ** i * n ** (2 * i + 1)) / sum;
+
+  console.log(sum2);
+}
