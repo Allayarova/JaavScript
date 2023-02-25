@@ -60,5 +60,9 @@ console.log(saveSet);
 
 //clear
 
-saveSet.clear();
-console.log(saveSet);
+// saveSet.clear();
+// console.log(saveSet);
+
+for(let el2 of saveSet) {
+    console.log(el2);
+}
