@@ -53,3 +53,8 @@ console.log(saveSet.has(14));
 saveSet.add(45);
 console.log(saveSet);
 
+//dealte
+
+saveSet.delete(14);
+console.log(saveSet);
+
