@@ -58,3 +58,7 @@ console.log(saveSet);
 saveSet.delete(14);
 console.log(saveSet);
 
+//clear
+
+saveSet.clear();
+console.log(saveSet);
