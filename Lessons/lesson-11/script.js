@@ -32,6 +32,10 @@ const user = {
 
 //sets
 
-const arr = [12, 13, 14, 15, 16, 17, 18];
-const saveSet = new Set(arr);
+// const arr = [12, 13, 14, 15, 16, 17, 18];
+// const saveSet = new Set(arr);
+// console.log(saveSet);
+
+const saveSet = new Set([12, 13, 14, 15, 16, 17, 18]);
+const save2 = new Set();
 console.log(saveSet);
