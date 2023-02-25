@@ -39,3 +39,17 @@ const user = {
 const saveSet = new Set([12, 13, 14, 15, 16, 17, 18]);
 const save2 = new Set();
 console.log(saveSet);
+
+//size
+
+console.log(saveSet.size);
+
+//has
+
+console.log(saveSet.has(14));
+
+//add
+
+saveSet.add(45);
+console.log(saveSet);
+
