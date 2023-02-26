@@ -79,3 +79,7 @@ const map = new Map();
 
 map.set("fName", "Umar");
 console.log(map);
+
+//get
+
+console.log(map.get("fName"));
