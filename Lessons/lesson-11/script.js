@@ -104,18 +104,22 @@ console.log(map.has("fName"));
 console.log(map.size);
 
 const arr2 = [
-    ["fName", "Umar"],
-    ["lName", "Hamidov"],
-    ["age", 25],
-    ["login", "umar"],
-    ["pass", "password"]
+  ["fName", "Umar"],
+  ["lName", "Hamidov"],
+  ["age", 25],
+  ["login", "umar"],
+  ["pass", "password"],
 ];
 
 console.log(arr2);
 
-map.set(arr2)
-console.log(map);
+// map.set(arr2)
+// console.log(map);
 
+const map2 = new Map(arr2);
+console.log(map2);
 
-
-
+for (const el of map2) {
+    console.log(el);
+    
+}
