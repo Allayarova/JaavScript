@@ -66,3 +66,8 @@ console.log(saveSet);
 for(let el2 of saveSet) {
     console.log(el2);
 }
+
+const newArr = [...saveSet];
+
+console.log(saveSet);
+
