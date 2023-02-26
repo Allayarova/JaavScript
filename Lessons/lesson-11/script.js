@@ -88,4 +88,8 @@ console.log(map.get("fName"));
 
 console.log(map.has("fName"));
 
+//delete
 
+console.log(map);
+map.delete("fName");
+console.log(map);
