@@ -90,6 +90,13 @@ console.log(map.has("fName"));
 
 //delete
 
+// console.log(map);
+// map.delete("fName");
+// console.log(map);
+
+//clear
+
+map.clear();
 console.log(map);
-map.delete("fName");
-console.log(map);
+
+
