@@ -63,11 +63,19 @@ console.log(saveSet);
 // saveSet.clear();
 // console.log(saveSet);
 
-for(let el2 of saveSet) {
-    console.log(el2);
+for (let el2 of saveSet) {
+  console.log(el2);
 }
 
 const newArr = [...saveSet];
 
 console.log(saveSet);
 
+//map
+
+const map = new Map();
+
+//set
+
+map.set("fName", "Umar");
+console.log(map);
