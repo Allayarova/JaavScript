@@ -111,15 +111,18 @@ const arr2 = [
   ["pass", "password"],
 ];
 
-console.log(arr2);
+// console.log(arr2);
 
-// map.set(arr2)
-// console.log(map);
+// // map.set(arr2)
+// // console.log(map);
 
 const map2 = new Map(arr2);
 console.log(map2);
 
 for (const el of map2) {
-    console.log(el);
-    
+  console.log(el);
 }
+
+// for (let [key, val] of map2) {
+//   console.log(key, val);
+// }
