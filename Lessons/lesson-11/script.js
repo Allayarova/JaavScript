@@ -96,7 +96,26 @@ console.log(map.has("fName"));
 
 //clear
 
-map.clear();
+// map.clear();
+// console.log(map);
+
+//size
+
+console.log(map.size);
+
+const arr2 = [
+    ["fName", "Umar"],
+    ["lName", "Hamidov"],
+    ["age", 25],
+    ["login", "umar"],
+    ["pass", "password"]
+];
+
+console.log(arr2);
+
+map.set(arr2)
 console.log(map);
+
+
 
 
