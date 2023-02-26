@@ -83,3 +83,9 @@ console.log(map);
 //get
 
 console.log(map.get("fName"));
+
+//has
+
+console.log(map.has("fName"));
+
+
