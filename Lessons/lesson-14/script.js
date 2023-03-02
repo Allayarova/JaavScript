@@ -11,8 +11,21 @@ const arr = [12, 13, 14, 15, 1, 7, 18];
 
 //splice (mutable)
 
-let newArr = arr.splice(0, 4);
+// let newArr = arr.splice(0, 4);
+// console.log(newArr);
+
+// console.log(arr);
+
+//reverse (mutable)
+
+
+let newArr = arr.reverse(0, 4);
 console.log(newArr);
 
 console.log(arr);
+
+
+
+
+
 
