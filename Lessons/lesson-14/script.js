@@ -20,7 +20,6 @@ const arr2 = [1, 3, 4, 5, 7, 8];
 
 //reverse (mutable)
 
-
 // let newArr = arr.reverse(0, 4);
 // console.log(newArr);
 
@@ -28,15 +27,18 @@ const arr2 = [1, 3, 4, 5, 7, 8];
 
 //concat (immutable )
 
-let newArr = arr.concat(arr2);
-console.log(newArr);
+// let newArr = arr.concat(arr2);
+// console.log(newArr);
 
-console.log(arr);
+// console.log(arr);
 
+//join
 
+const str = arr.join();
+console.log(str);
 
-
-
-
-
+console.log(typeof str);
+console.log(arr.join());
+console.log(arr.join(""));
+console.log(arr.join(" "));
 
