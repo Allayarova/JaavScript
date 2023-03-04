@@ -42,3 +42,13 @@ console.log(arr.join());
 console.log(arr.join(""));
 console.log(arr.join(" "));
 
+//at
+
+console.log(arr.length);
+console.log(arr[arr.length]);
+console.log(arr[arr.length - 1]);
+console.log(arr.at(-1));
+
+//for each 
+
+for 
