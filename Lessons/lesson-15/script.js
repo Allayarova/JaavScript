@@ -29,4 +29,14 @@ let title = document.querySelector(".main__left--title");
 let mainLeft = document.getElementById("main__left");
 let btnSbmt = document.getElementById("btn__sbmt");
 
-let addText = 
+let addText = `it. Consequuntur veritatis fugiat dolores ullam, deleniti porro
+          nobis, minus animi modi sequi ratione a! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Consequuntur veritatis fugiat dolores
+          ullam, deleniti porro nobis, minus animi modi sequi ratione a!`;
+
+          mainBtn.addEventListener("click", function () {
+            console.log("click");
+
+            
+            
+          })
