@@ -1,28 +1,30 @@
-const user = {
-  fName: "User",
-  login: "user",
-  pass: "passUser",
-};
+"use script";
 
-const admin = {
-  fName: "Admin",
-  login: "admin",
-  pass: "passAdmin",
-};
+// const user = {
+//   fName: "User",
+//   login: "user",
+//   pass: "passUser",
+// };
 
-const customer = {
-  fName: "Customer",
-  login: "customer",
-  pass: "passCustomer",
-};
+// const admin = {
+//   fName: "Admin",
+//   login: "admin",
+//   pass: "passAdmin",
+// };
 
-const arr = [admin, user, customer];
+// const customer = {
+//   fName: "Customer",
+//   login: "customer",
+//   pass: "passCustomer",
+// };
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i].fName == "User") {
-    console.log(arr[i]);
-  }
-}
+// const arr = [admin, user, customer];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].fName == "User") {
+//     console.log(arr[i]);
+//   }
+// }
 
 let mainBtn = document.getElementById("main__btn");
 let title = document.querySelector(".main__left--title");
@@ -34,9 +36,11 @@ let addText = `it. Consequuntur veritatis fugiat dolores ullam, deleniti porro
           consectetur, adipisicing elit. Consequuntur veritatis fugiat dolores
           ullam, deleniti porro nobis, minus animi modi sequi ratione a!`;
 
-          mainBtn.addEventListener("click", function () {
-            console.log("click");
+mainBtn.addEventListener("click", function () {
+  console.log("click");
 
-            
-            
-          })
+  // mainLeft.insertAdjacentHTML("beforebegin", `<p>New text</p>`);
+  mainLeft.insertAdjacentHTML("beforebegin", addText);
+
+  title.textContent = "hoooooooooooooo";ss
+});
