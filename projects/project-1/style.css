@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1200px;
+}
+
+.Title {
+  text-align: center;
+  color: rgb(37, 108, 37);
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.clock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  font-family: cursive;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgb(1, 71, 60);
+  padding-top: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.box__hours,
+.box__days,
+.box__minutes,
+.box__seconds {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__box {
+  color: white;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  color: white;
+  font-size: 70px;
+  
+}
