@@ -31,7 +31,20 @@ const changeBtnClicked = () => {
   //   const containsClass = parentBox.classList.contains("parentBox");
   //   alert(containsClass);
 
-  window.scrollTo({ top: "0px", behavior: "smooth" });
+  //   window.scrollTo({ top: "0px", behavior: "smooth" });
 };
 
-changeBtn.addEventListener("click", changeBtnClicked);
+// changeBtn.addEventListener("click", changeBtnClicked);
+
+// const onMouseEnter = () => {
+//   parentBox.classList.toggle("addClass");
+//   changeBtn.removeEventListener("mouseenter", onMouseEnter);
+// };
+
+// changeBtn.addEventListener("mouseenter", onMouseEnter);
+
+document.addEventListener("keydown", function (a) {
+  if (a.code === "Enter") parentBox.classList.toggle("addClass");
+});
+
+
