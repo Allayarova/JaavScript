@@ -20,7 +20,9 @@ const changeBtnClicked = () => {
 //   parentBox.before(createChild);  
 //   parentBox.after(createChild);  
 
-document.querySelector(".parentBox__firstChild").remove();
+// document.querySelector(".parentBox__firstChild").remove();
+
+parentBox.classList.add("addClass")
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
