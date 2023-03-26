@@ -13,7 +13,9 @@ const changeBtn = document.getElementById("changeBtn");
 const changeBtnClicked = () => {
   const createChild = document.createElement("div");
   createChild.innerHTML = "<p>Hello world</p>";
-  parentBox.prepend(createChild);    
+//   parentBox.prepend(createChild);    
+
+  parentBox.append(createChild);  
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
