@@ -17,7 +17,8 @@ const changeBtnClicked = () => {
 
 //   parentBox.append(createChild);  
 
-  parentBox.before(createChild);  
+//   parentBox.before(createChild);  
+  parentBox.after(createChild);  
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
