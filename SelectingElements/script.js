@@ -15,7 +15,9 @@ const changeBtnClicked = () => {
   createChild.innerHTML = "<p>Hello world</p>";
 //   parentBox.prepend(createChild);    
 
-  parentBox.append(createChild);  
+//   parentBox.append(createChild);  
+
+  parentBox.before(createChild);  
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
