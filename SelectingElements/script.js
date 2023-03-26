@@ -28,8 +28,10 @@ const changeBtnClicked = () => {
 
   //   parentBox.classList.toggle("parentBox");
 
-  const containsClass = parentBox.classList.contains("parentBox");
-  alert(containsClass);
+  //   const containsClass = parentBox.classList.contains("parentBox");
+  //   alert(containsClass);
+
+  window.scrollTo({ top: "0px", behavior: "smooth" });
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
