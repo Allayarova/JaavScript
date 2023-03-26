@@ -13,18 +13,18 @@ const changeBtn = document.getElementById("changeBtn");
 const changeBtnClicked = () => {
   const createChild = document.createElement("div");
   createChild.innerHTML = "<p>Hello world</p>";
-//   parentBox.prepend(createChild);    
+  //   parentBox.prepend(createChild);
 
-//   parentBox.append(createChild);  
+  //   parentBox.append(createChild);
 
-//   parentBox.before(createChild);  
-//   parentBox.after(createChild);  
+  //   parentBox.before(createChild);
+  //   parentBox.after(createChild);
 
-// document.querySelector(".parentBox__firstChild").remove();
+  // document.querySelector(".parentBox__firstChild").remove();
 
-parentBox.classList.add("addClass")
+  // parentBox.classList.add("addClass")
+
+//   parentBox.classList.remove("parentBox");
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
-
-
