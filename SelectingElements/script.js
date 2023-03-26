@@ -24,7 +24,12 @@ const changeBtnClicked = () => {
 
   // parentBox.classList.add("addClass")
 
-//   parentBox.classList.remove("parentBox");
+  //   parentBox.classList.remove("parentBox");
+
+  //   parentBox.classList.toggle("parentBox");
+
+  const containsClass = parentBox.classList.contains("parentBox");
+  alert(containsClass);
 };
 
 changeBtn.addEventListener("click", changeBtnClicked);
